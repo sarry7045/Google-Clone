@@ -4,7 +4,7 @@ import { Navbar } from "./Components/Navbar.jsx";
 import { Routes } from "./Components/Routes.jsx";
 
 const App = () => {
-  const [darkTheme, setDarkTheme] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(true);
 
   return (
     <div className={darkTheme ? "dark" : ""}>
